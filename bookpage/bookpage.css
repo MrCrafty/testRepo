@@ -1,0 +1,40 @@
+body {
+    padding-top: 50px;
+  }
+  
+  .panel-body {
+    padding: 0;
+  }
+  
+  .panel-body ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .panel-body ul li:last-child {
+    border-bottom: none;
+  }
+
+ 
+  .panel-body ul li p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .panel-body ul li small {
+    color: #999;
+  }
+  
+
+  .review-border{
+    padding: 10px;
+    border: solid black 1px;
+  }
+  .ads{
+    height: 10vh;
+    width: 100vw;
+    background-color: grey;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 30px;
+  }
