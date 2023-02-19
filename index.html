@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/Cards/cards.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"  
+    />
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <section id="land" class="container-fluid landing-page p-0">
+      <nav
+        id="mynav"
+        class="navbar nav-style px-5 nav d-flex flex-row justify-content-between"
+      >
+        <div class="logo d-flex flex-row">
+          <img src="Logo-2.png" class="logo-img" alt="brand-logo" />
+          <h1 class="align-self-center"><a href="/index.html">BookComm</a></h1>
+        </div>
+        <div class="login">
+          <ul class="d-flex flex-row">
+            <li class="mx-3 ">
+              <a href="/membership/membership.html">Subscription</a>
+            </li>
+            
+            <li id="logout" class="mx-3 hide"><a href="./index.html">Logout</a></li>
+            <li id = "login" class="mx-3 "><a href="/login/login.html">Login</a></li>
+
+            <li id="login" class="mx-3 "><a href="/register/register.html">Register</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+      <!-- SearchBar Start -->
+      <div class="searchBar d-flex justify-content-center align-content-center">
+        <div>
+          <div class="d-flex flex-row">
+            <input
+              placeholder="FIND YOUR BOOK'S REVIEW HERE"
+              class="form-control searchField text-center"
+              type="search"
+              name=""
+              id=""
+            /><button class="btn fa fa-magnifying-glass fa-2xl"></button>
+          </div>
+        </div>
+      </div>
+      <!-- SearchBar End -->
+
+      <a href="#categories">
+        <div id="mouse-scroll">
+          <div class="mouse">
+            <div class="mouse-in"></div>
+          </div>
+          <div>
+            <span class="down-arrow-1"></span>
+          </div>
+        </div>
+      </a>
+    </section>
+    <section
+      id="categories"
+      class="container-fluid cat-page d-flex align-items-center"
+    >
+      <div class="container position-relative">
+        <h2 class="heading text-center">Categories</h2>
+        <a href="#land">
+          <div id="mouse-scroll3">
+            <div>
+              <span class="down-arrow-1"></span>
+            </div>
+            <div class="mouse2">
+              <div class="mouse-in2"></div>
+            </div>
+          </div>
+        </a>
+
+        <div
+          class="text-center align-self-center container col-12 justify-content-around d-flex flex-row"
+        >
+          <div class="col-3 cat-bg m-2">
+            <h3><a href="#fiction">Sci-fi</a></h3>
+          </div>
+          <div class="col-5 cat-bg m-2">
+            <h3><a href="#non-fiction">Business</a></h3>
+          </div>
+          <div class="col-4 cat-bg m-2">
+            <h3><a href="#fiction">Thriller</a></h3>
+          </div>
+        </div>
+        <div
+          class="container text-center col-12 justify-content-around d-flex flex-row"
+        >
+          <div class="col-4 cat-bg m-2">
+            <h3><a href="#fiction">Romance</a></h3>
+          </div>
+          <div class="col-4 cat-bg m-2">
+            <h3><a href="#fiction">Crime</a></h3>
+          </div>
+          <div class="col-4 cat-bg m-2">
+            <h3><a href="#non-fiction">Biography</a></h3>
+          </div>
+        </div>
+        <div
+          class="container text-center col-12 justify-content-around d-flex flex-row"
+        >
+          <div class="col-6 cat-bg m-2">
+            <h3><a href="#fiction">Horror</a></h3>
+          </div>
+          <div class="col-6 cat-bg m-2">
+            <h3><a href="#non-fiction">Literature</a></h3>
+          </div>
+        </div>
+        <a href="#fiction">
+          <div id="mouse-scroll2">
+            <div class="mouse2">
+              <div class="mouse-in2"></div>
+            </div>
+            <div>
+              <span class="down-arrow-1"></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="fiction" class="container-fluid fiction">
+      <a href="#categories">
+        <div id="mouse-scroll4">
+          <div>
+            <span class="down-arrow-1"></span>
+          </div>
+          <div class="mouse2">
+            <div class="mouse-in2"></div>
+          </div>
+        </div>
+      </a>
+      <div class="container-fluid fic-head">
+        <h2 class="heading text-center">Fiction</h2>
+      </div>
+      <div class="container">
+        <div class="cards fic-cards d-grid">
+          <div class="row">
+            <div class="col-3">
+              <div class="card">
+                <a href="./bookPages/horror/horror.html">
+                  <img
+                    class="w-100"
+                    src="/Photos/Horror/image - Horror 1.png"
+                    alt=""
+                  /><label class="text-center image-label p-3">Horror</label>
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <a href="/bookPages/romance/romance.html">
+                  <img
+                    class="w-100"
+                    src="/Photos/Love Story/image - Love 1.png"
+                    alt=""
+                  /><label class="text-center image-label p-3">Romance</label>
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <a href="/bookPages/fiction/fiction.html">
+                  <img
+                    class="w-100"
+                    src="/Photos/Science fi images/image - Sci fi 1.png"
+                    alt=""
+                  /><label class="text-center image-label p-3"
+                    >Science Fiction</label
+                  ></a
+                >
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <a href="/bookPages/Thrill/thrill.html"
+                  ><img
+                    class="w-100"
+                    src="/Photos/Thrill/image - Thrill 1.png"
+                    alt=""
+                  /><label class="text-center image-label p-3">Thrill</label></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#fiction">
+        <div id="mouse-scroll5">
+          <div>
+            <span class="down-arrow-1"></span>
+          </div>
+          <div class="mouse2">
+            <div class="mouse-in2"></div>
+          </div>
+        </div>
+      </a>
+      <a href="#non-fiction">
+        <div id="mouse-scroll6">
+          <div class="mouse2">
+            <div class="mouse-in2"></div>
+          </div>
+          <div>
+            <span class="down-arrow-1"></span>
+          </div>
+        </div>
+      </a>
+    </section>
+    <section id="non-fiction" class="container-fluid non-fiction">
+      <div class="container-fluid pt-5">
+        <h2 class="nonfic-head heading text-center">Non - Fiction</h2>
+      </div>
+      <div class="container">
+        <div class="cards nonfic-cards d-grid">
+          <div class="row">
+            <div class="col-3">
+              <div class="card">
+                <a href="/bookPages/business/business.html"
+                  ><img
+                    class="w-100"
+                    src="/Photos/Buss and ECO/image - Buss and Eco 1.png"
+                    alt=""
+                  /><label class="text-center image-label p-3"
+                    >Business</label
+                  ></a
+                >
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <a href="/bookPages/literature/literature.html"
+                  ><img
+                    class="w-100"
+                    src="/Photos/Litreture/image - Lit 1.png"
+                    alt=""
+                  /><label class="text-center image-label p-3"
+                    >Literature</label
+                  ></a
+                >
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <a href="/bookPages/biography/biography.html"
+                  ><img
+                    class="w-100"
+                    src="/Photos/Non -fic Biography/image - Biography 2.png"
+                    alt=""
+                  /><label class="text-center image-label p-3"
+                    >Biography</label
+                  ></a
+                >
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <a href="/bookPages/narrative/narrative.html"
+                  ><img
+                    class="w-100"
+                    src="/Photos/Narrative Books/image - NB 1.png"
+                    alt=""
+                  /><label class="text-center image-label p-3"
+                    >Narrative</label
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
